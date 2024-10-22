@@ -14,6 +14,7 @@ osc_client = udp_client.SimpleUDPClient("127.0.0.1", 8000)  # IP localhost and p
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', trust_repo=True)
 
 # Set camera input (0 for webcam)
+
 url = 0
 cap = cv2.VideoCapture(url)
 
